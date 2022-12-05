@@ -1,0 +1,157 @@
+@font-face {
+    font-family: corsiva;
+    src: url('MTCORSVA.TTF');
+}
+
+
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: #d6ffb2 ;
+    color:  #000066;
+    font-family: corsiva;
+    font-size: 100%;
+}
+
+.tartalom{
+    width: 70% ;
+    margin:0 auto;
+    background-color: #EEFF66;
+    box-shadow: 0 0 20px rgba(1, 1, 1, 0.359);
+}
+
+#nav {
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float:left;
+    list-style-type: none;
+    font-size: 1.3em;
+}
+
+#nav ul li {
+    text-decoration: none;
+    padding-left:16vh;
+    padding-right: 16vh;
+    display: block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 416px){
+    #nav ul li {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        float:none;
+        list-style-type: none;
+        padding-bottom: 2%;
+    }
+    #nav #aktu{
+        display: none;
+    }
+    #nav {
+        padding-bottom: 7%;
+        height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+    @media only screen and (max-width: 1560px){
+        #nav ul li {
+            text-decoration: none;
+            padding-left:14vh;
+            padding-right: 14vh;
+            display: block;
+            text-align: center;
+        }
+
+    @media only screen and (max-width: 1125px){
+        .tartalom{
+            width: 100% ;
+            margin:0 auto;
+            background-color: #EEFF66
+
+        }
+    }
+
+    }
+
+
+hr{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: solid red 4px;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    max-width: 98%;
+    margin:0 auto;
+    clear:both;
+}
+
+#etlap ul li{
+    list-style-type: disc;
+    font-size: 1.3em;
+}
+
+#etlap ul{
+    list-style-type: disc;
+    padding-left: 3%;
+    list-style-position: inside;
+}
+
+#etlap #lista li{
+    list-style-type: none;
+}
+
+#etlap{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left:5%;
+}
+#etlap h1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bolder;
+    font-size: 1.9em;
+}
+#etlap img{
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+
+}
+#footer ul{
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+#footer ul li{
+    display: inline-block;
+}
+#footer{
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
